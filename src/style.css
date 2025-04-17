@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* cobre toda a tela */
+  background-position: center center; /* centraliza a imagem */
+  min-height: 100vh; /* garante que cubra a altura toda */
+}
